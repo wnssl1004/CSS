@@ -1,0 +1,181 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+  letter-spacing: -0.05em !important;
+  background: transparent;
+  font-family: 'Nanum Gothic', Arial, Helvetica, sans-serif;
+
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+  width: 120px !important;
+}
+
+#article-list #article-list-category {
+  border-top: 2px solid #8EC5FC;
+  background: white;
+}
+
+#article-list #article-list-category>a {
+  background: white;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+  background-color: #8EC5FC;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #C1E9FF;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+  color: #C1E9FF;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  background-color: #8EC5FC;
+  border-color: #8EC5FC;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  color: #C1E9FF;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #8EC5FC;
+}
+
+#article-content-wrapper>.header {
+  border-top: 2px solid #8EC5FC;
+  background:#c1e9ff4d
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header,
+#article-reply-area #reply-best-area .reply>.reply-header {
+        background:#c1e9ff4d
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #C1E9FF;
+}
+
+#article-info>h2 {
+  font-weight: bold;
+}
+
+#article-info>h2>span.category {
+  color: #8EC5FC !important;
+}
+
+#article-reply-area>.header h5 {
+  color: #8EC5FC;
+}
+a {
+	color: #8EC5FC;
+}
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #8EC5FC;
+}
+
+.btn-primary {
+  background: #8EC5FC !important;
+  border: 1px solid #e5e5e5;
+}
+
+/* 모바일 */
+
+#header-top-notice {
+  display: none;
+}
+
+header {
+  background-color: #C1E9FF;
+  border-bottom-color: #8EC5FC;
+}
+
+header>#header-area>a>h1 {
+  background: url('https://upload.tgd.kr/20190219/d0855091829d7e2847f0636899b8b65b.png') no-repeat;
+  background-size: auto 40px;
+  background-repeat: no-repeat;
+  height: unset !important;
+  width: 135px;
+}
+
+header>#header-area>#header-search-link {
+  color: #8EC5FC;
+}
+
+header>#header-area>#header-bar-link {
+  color: #8EC5FC;
+}
+
+header>#header-search-bar #header-search-btn {
+  color: #8EC5FC;
+}
+
+#article-list>.article-list-row.notice>.item>a.list-title>.list-writer {
+  display: none;
+}
+
+header>#header-search-bar #header-search-input {
+  border-color: #8EC5FC;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+  color: #8EC5FC;
+  letter-spacing: -0.05em !important;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+  color: #8EC5FC;
+}
+
+#nav#nav>.nav-header {
+  background-color: #8EC5FC;
+  color: white;
+}
+
+/* 새 글 작성 */
+
+.fr-toolbar {
+ border-top:5px solid #8EC5FC
+}
+
+.fr-toolbar .fr-command.fr-btn,
+.fr-popup .fr-command.fr-btn {
+ color:#8EC5FC
+}
+
+/* 아티스트 */
+
+div#article-list #article-list-menu>.btn.write {
+	border-radius:15px;
+	background: #8EC5FC;
+	color:#fff;
+}
+
+div#article-list #article-list-menu>.btn.best {
+	border-radius:15px;
+	background: #FFF;
+	color:#EFC839;
+}
+
+div#article-list form.input-group .input-group-btn button.btn.square.btn-default.dropdown-toggle {
+	padding-left:15px;
+	padding-right:10px;
+	border-top-left-radius:17px;
+	border-bottom-left-radius:17px;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+}
