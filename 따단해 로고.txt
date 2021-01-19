@@ -1,0 +1,10 @@
+https://upload.tgd.kr/20210119/e69c5a8ca7c7968816dd323f9a6d54ac.png
+
+/* Live 방송 표시 */
+
+#board-info h1 > a.badge.badge-live {
+    background: #c00;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
